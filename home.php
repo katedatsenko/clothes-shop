@@ -22,7 +22,7 @@ get_header(); ?>
 					<div class="image-under-div image-under-div-1">
 						<p class="first-heading first-heading-longer">NEW ARRIVALS</p>
 						<p class="second-heading">REVIVE YOUR WARDROBE WITH CHIC KNITS</p>
-						<p class="button-in-border"><a href="<?php echo get_term_link( 16 ,'product_cat') ?>" >TAKE A LOOK</a></p>
+						<p class="button-in-border"><a href="<?php echo get_term_link( 37 ,'product_cat') ?>" >TAKE A LOOK</a></p>
 					</div>
 					<img src="<?php echo get_template_directory_uri()?>/images/picture1.png" style="position: relative; z-index: 1;">
 				</div>
@@ -30,7 +30,7 @@ get_header(); ?>
 					<div class="image-under-div image-under-div-2">
 						<p class="first-heading first-heading-longer">TUXEDO</p>
 						<p class="second-heading">REVIVE YOUR WARDROBE WITH CHIC KNITS</p>
-						<p class="button-in-border"><a href="<?php echo get_term_link( 17 ,'product_cat') ?>" >SHOP NOW</a></p>
+						<p class="button-in-border"><a href="<?php echo get_term_link( 38 ,'product_cat') ?>" >SHOP NOW</a></p>
 					</div>
 					<img src="<?php echo get_template_directory_uri()?>/images/picture2.png">
 				</div>
@@ -40,14 +40,14 @@ get_header(); ?>
 					<div class="image-under-div image-under-div-3">
 						<p class="first-heading first-heading-shorter">SWEATER</p>
 						<p class="second-heading">REVIVE YOUR WARDROBE WITH CHIC KNITS</p>
-						<p class="button-in-border"><a href="<?php echo get_term_link( 18 ,'product_cat') ?>" >SHOP NOW</a></p>
+						<p class="button-in-border"><a href="<?php echo get_term_link( 39 ,'product_cat') ?>" >SHOP NOW</a></p>
 					</div>
 					<img src="<?php echo get_template_directory_uri()?>/images/picture3.png">
 				</div>
 				<div class="block-fourth">
 					<div class="image-under-div image-under-div-4">
 						<p class="another-heading">Trekking Shoes</p>
-						<p class="button-arrow"><a href="<?php echo get_term_link( 19 ,'product_cat') ?>" >&rarr;</a></p>
+						<p class="button-arrow"><a href="<?php echo get_term_link( 40 ,'product_cat') ?>" >&rarr;</a></p>
 					</div>
 					<img src="<?php echo get_template_directory_uri()?>/images/picture4.png">
 				</div>
@@ -56,21 +56,21 @@ get_header(); ?>
 				<div class="block-fifth">
 					<div class="image-under-div image-under-div-5">
 						<p class="another-heading">Casual Glasses</p>
-						<p class="button-arrow"><a href="<?php echo get_term_link( 20 ,'product_cat') ?>" >&rarr;</a></p>
+						<p class="button-arrow"><a href="<?php echo get_term_link( 41 ,'product_cat') ?>" >&rarr;</a></p>
 					</div>
 					<img src="<?php echo get_template_directory_uri()?>/images/picture5.png">
 				</div>
 				<div class="block-sixth">
 					<div class="image-under-div image-under-div-6">
 						<p class="first-heading first-heading-shorter">FRESH LOOK T-SHIRT</p>
-						<p class="button-in-border"><a href="<?php echo get_term_link( 21 ,'product_cat') ?>" >SHOP NOW</a></p>
+						<p class="button-in-border"><a href="<?php echo get_term_link( 42 ,'product_cat') ?>" >SHOP NOW</a></p>
 					</div>
 					<img src="<?php echo get_template_directory_uri()?>/images/picture6.png">
 				</div>
 				<div class="block-seventh">
 					<div class="image-under-div image-under-div-7">
 						<p class="another-heading">Elegant Watches</p>
-						<p class="button-arrow"><a href="<?php echo get_term_link( 22 ,'product_cat') ?>" >&rarr;</a></p>
+						<p class="button-arrow"><a href="<?php echo get_term_link( 43 ,'product_cat') ?>" >&rarr;</a></p>
 					</div>
 					<img src="<?php echo get_template_directory_uri()?>/images/picture7.png">
 				</div>

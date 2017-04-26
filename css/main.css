@@ -469,7 +469,9 @@ ul.nav.navbar-nav.navbar-right.sub-menu {
 	padding: 10px;
 }
 .container-offers {
-	width: 960px;
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*footer*/
