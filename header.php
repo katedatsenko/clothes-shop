@@ -64,7 +64,7 @@
 					        <li><a href="#" class="">Register</a></li>
 					     </ul>
 					     <ul class="nav navbar-nav navbar-right sub-menu">
-					        <li><a href="#" class=""><i class="fa fa-shopping-cart"></i> My Cart ( 0 ) : $0</a></li>
+					        <li class="cart"><a href="<?php echo WC()->cart->get_cart_url(); ?>" ><i class="fa fa-shopping-cart"></i> My Cart (<?php echo WC()->cart->get_cart_contents_count(); ?>): <?php echo WC()->cart->get_cart_total(); ?></a></li>
 					        <li class="checkout-link"><a href="#">CHECKOUT</a></li>
 					     </ul>
 					</div>
@@ -94,14 +94,14 @@
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav">
-			        <li class="active"><a href="#">HOME<span class="sr-only">(current)</span></a></li>
-			        <li><a href="#">NEW ARRIVALS</a></li>
-			        <li><a href="#">TUXEDO</a></li>
-			        <li><a href="#">SWEATER</a></li>
-			        <li><a href="#">SHOES</a></li>
-			        <li><a href="#">GLASSES</a></li>
-			        <li><a href="#">T-SHIRT</a></li>
-			        <li><a href="#">WATCHES</a></li>
+			        <li ><a class="active-link" href="<?php echo get_home_url(); ?>">HOME<span class="sr-only">(current)</span></a></li>
+			        <li><a href="<?php echo get_term_link( 37 ,'product_cat') ?>">NEW ARRIVALS</a></li>
+			        <li><a href="<?php echo get_term_link( 38 ,'product_cat') ?>">TUXEDO</a></li>
+			        <li><a href="<?php echo get_term_link( 39 ,'product_cat') ?>">SWEATER</a></li>
+			        <li><a href="<?php echo get_term_link( 40 ,'product_cat') ?>">SHOES</a></li>
+			        <li><a href="<?php echo get_term_link( 41 ,'product_cat') ?>">GLASSES</a></li>
+			        <li><a href="<?php echo get_term_link( 42 ,'product_cat') ?>">T-SHIRT</a></li>
+			        <li><a href="<?php echo get_term_link( 43 ,'product_cat') ?>">WATCHES</a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
